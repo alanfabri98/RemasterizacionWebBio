@@ -1,0 +1,36 @@
+.price{
+  color: #0D1440;
+  background: rgb(0, 183, 150);
+}
+.add{
+  color: rgb(255, 255, 255);
+  background: #0E2773;
+}
+.view{
+  color: rgb(255, 255, 255);
+  background: #1455D9;
+}
+.imagen {
+  position: relative;
+}
+.imagen{
+  object-fit: cover;
+}
+.imagen strong{
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  right: 0%;
+}
+.imagen .buttons{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+.imagen .view,add{
+  display: block;
+}
+.imagen:hover .buttons{
+  display: block;
+}

@@ -1,0 +1,89 @@
+  <div class="row">
+    <div class="col m-0 p-0">
+      <app-slider></app-slider>
+    </div>
+    <div class="col">
+      <div class="container">
+        <div class="text-center">
+          <fa-icon class="fa-2x" [icon]="faUserPlus"></fa-icon>
+        </div>
+        <hr>
+      </div>
+      <form [formGroup]="form" class="user">
+        <div class="card-body">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <fa-icon [icon]='faBiohazard'></fa-icon>
+              </span>
+            </div>
+            <input formControlName="nombre" type="text" class="form-control form-control-user" [(ngModel)]="articulo.nombre"
+              [ngClass]="{'is-invalid': submitted && f.nombre.errors}" placeholder="Nombres" />
+            <div *ngIf="submitted && f.nombre.errors" class="invalid-feedback">
+              <div *ngIf="f.nombre.errors.required">El nombre es requerido </div>
+              <div *ngIf="f.nombre.errors.minlength">El nombre debe tener maximo 50 caracteres</div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <fa-icon [icon]='faMoneyBill'></fa-icon>
+                </span>
+              </div>
+              <input formControlName="cantidad" type="number" class="form-control form-control-user"
+                [(ngModel)]="articulo.cantidad" [ngClass]="{'is-invalid': submitted && f.cantidad.errors}"
+                placeholder="Cantidad" />
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <fa-icon [icon]='faMoneyBill'></fa-icon>
+                </span>
+              </div>
+              <input formControlName="precio" type="number" class="form-control form-control-user"
+                [(ngModel)]="articulo.precio" [ngClass]="{'is-invalid': submitted && f.precio.errors}" placeholder="Precio" />
+            </div>
+          </div>
+
+          <select formControlName="categoria" [(ngModel)]="articulo.categoria"
+            [ngClass]="{'is-invalid': submitted && f.categoria.errors }" class="form-control form-control-user">
+            <option value="Guantes">Guantes</option>
+            <option value="Trajes">Trajes</option>
+            <option value="Mascarillas">Mascarillas</option>
+            <option value="Otros">Otros</option>
+          </select>
+          <br>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <fa-icon [icon]='faInfo'></fa-icon>
+              </span>
+            </div>
+            <input formControlName="detalle" type="text" class="form-control form-control-user" [(ngModel)]="articulo.detalle"
+              [ngClass]="{'is-invalid': submitted && f.detalle.errors}" placeholder="Detalle" />
+            <div *ngIf="submitted && f.detalle.errors" class="invalid-feedback">
+              <div *ngIf="f.detalle.errors.required">El detalle es requeridos </div>
+              <div *ngIf="f.detalle.errors.minlength">El detalle debe tener maximo 50 caracteres</div>
+            </div>
+          </div>
+
+          <select formControlName="estado" [(ngModel)]="articulo.estado"
+            [ngClass]="{'is-invalid': submitted && f.estado.errors }" class="form-control form-control-user">
+            <option value="Par">Par</option>
+            <option value="Impar">Impar</option>
+            <option value="Conjunto">Conjunto</option>
+          </select>
+          <br>
+          <div class="btn-group">
+            <button type="submit" (click)="onSubmit()" class="btn btn-success">
+              <fa-icon [icon]='faSave'></fa-icon>&nbsp;Guardar
+            </button>
+            <button type="reset" (click)="onReset()" class="btn btn-danger">
+              <fa-icon [icon]='faTimes'></fa-icon>&nbsp;Cancelar
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>

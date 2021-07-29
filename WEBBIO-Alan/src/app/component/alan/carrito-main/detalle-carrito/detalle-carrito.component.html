@@ -1,0 +1,246 @@
+<div class="row mb-2">
+    <div class="col-lg-9 col-md-7 col-sm-12 header-F" *ngIf="user2 || authServices.logIn() ">
+      <div class="card-body">
+        <div class="row d-flex justify-content-around">
+          <div class="col top ">
+            <div class="media ">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faLayerGroup'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Nombre</small>
+                <p class="h6"><strong>{{usuarioCarrito.nombres}}&nbsp;{{usuarioCarrito.apellidos}}</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col top">
+            <div class="media">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faMoneyBill'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Dirección</small>
+                <p class="h6"><strong>{{usuarioCarrito.direccion}}</strong></p>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-around">
+          <div class="col top">
+            <div class="media">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faClipboardList'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Email</small>
+                <p class="h6"><strong>{{usuarioCarrito.email}}</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col top">
+            <div class="media">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faTags'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Teléfono</small>
+                <p class="h6"><strong>{{usuarioCarrito.telefono}}</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" w-100 d-flex mt-2"><!--aqui van los botones-->
+          <div class="p-2 flex-grow-1 bd-highlight ">
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="text-center">
+                <button (click)="comprarArticulos()" type="button" class="btn btn-success btn-block"><strong>Comprar Todo</strong></button>
+              </div>
+              <div class="text-center">
+                <button (click)="deleteAll()" type="button" class="btn btn-danger btn-block"><strong>Limpiar</strong></button>
+              </div>
+            </div>
+
+          </div>
+          <div class="p-2 fact">
+            <div class="media ">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faTags'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">IVA: 12%</small>
+                <p class="h6"><strong>{{(total*0.12) | currency}}</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2  fact">
+            <div class="media ">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faTags'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">sub Total</small>
+                <p class="h6"><strong>{{total |currency}}</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 fact">
+            <div class="media ">
+              <div class="media-left ">
+                <fa-icon class="mr-3 fa-1x" [icon]='faTags'></fa-icon>
+              </div>
+              <div class="media-body ">
+                <small class="media-heading">Total</small>
+                <p class="h6"><strong>{{(total+(total*0.12) )|currency}}</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!--End Usuario comprador-->
+    </div>
+    <div class="col-lg-3 col-md-5 col-sm-12">
+      <img src="https://image.freepik.com/vector-gratis/medicos-trabajadores-bioseguridad-elementos-equipo-proteccion-covid19_18591-66735.jpg" class="card-img" alt="...">
+    </div>
+</div>
+
+<div class="row border "><!--Inicia Negocio-->
+  <div class="container-fluid " #articuloStar *ngFor="let item of carrito; index as i">
+    <div class="row shadow mb-5 bg-white rounded">
+      <div class="col col-md-6 col-sm-12"  >
+        <div class="card-body">
+          <div class="row d-flex justify-content-around">
+            <div class="col top">
+              <div class="media my-0 py-0">
+                <div class="media-body">
+                  <div class="media-left">
+                    <fa-icon class="mr-3 fa-1x" [icon]='faTags'></fa-icon>
+                    <small class="media-heading">Artículo</small>
+                  </div>
+                  <p class="h6"><strong>{{item.nombre}}</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="media">
+                <div class="media-body">
+                  <div class="media-left">
+                    <fa-icon class="mr-3 fa-1x" [icon]='faHandHoldingUsd'></fa-icon>
+                   <small class="media-heading">Subtotal</small>
+                  </div>
+                  <span id="spTotal">{{totalVenta((item.precio),(n22.value))|currency}}</span>
+                  <!--<span id="spTotal">{{totalVenta((item.precio),(n22.value))|currency}} * Iva ={{(item.precio*1)*(n22.value*1)*0.12|currency}}</span> funciones-->
+                </div>
+                <div class="media-body">
+                  <div class="media-left">
+                   <small class="media-heading">Iva: 12%</small>
+                  </div>
+                  <span id="spTotal">{{iva|currency}}</span>
+                </div>
+                   <button class="fixed">
+                    <fa-icon [icon]="faEye"></fa-icon>
+                   </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-around">
+            <div class="col top">
+              <div class="media">
+                <div class="media-body">
+                  <div class="media-left">
+                    <fa-icon class="mr-3 fa-1x" [icon]='faMoneyBill'></fa-icon>
+                    <small class="media-heading">Precio</small>
+                  </div>
+                    <p class="h6"><strong>{{item.precio |currency}}</strong></p>
+                </div>
+                <div class="media-body">
+                  <div class="media-left">
+                    <fa-icon class="mr-3 fa-1x" [icon]='faClipboardList'></fa-icon>
+                    <small class="media-heading">Stock</small>
+                  </div>
+                    <p class="h6"><strong>{{item.cantidad}}</strong></p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col ">
+              <div class="media">
+                <div class="media-body">
+                  <div class="media-left">
+                    <small class="media-heading">{{texto}}</small>
+                  </div>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" #n22 (keyup)="0" value="1" (keyup)="onKey($event, item.precio, i)">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-around">
+            <div class="col">
+              <div class="media">
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col col-md-4 my-auto col-sm-12"><!--Usuario Vendedor-->
+        <button class="w-100   btn btn-outline-info" [routerLink]="['/usuarios', item.idUsuario]">
+          <div class="card-body p-0 ">
+            <div class="row d-flex justify-content-around">
+              <div class="col top">
+                <div class="media-body">
+                  <div class="media-left">
+                    <fa-icon class="fa-1x" [icon]='faUserTag'></fa-icon>
+                    <small class="media-heading">Dueño</small>
+                  </div>
+
+                  <div class="media-body">
+                    <p class="h6"><strong>{{item.usuario.nombres }} &nbsp;{{item.usuario.apellidos }}</strong></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col top">
+                <div class="media">
+                  <div class="media-body">
+                    <div class="media-left">
+                      <fa-icon class="fa-1x" [icon]='faMapMarkedAlt'></fa-icon>
+                      <small class="media-heading">-Localidad</small>
+                    </div>
+                    <p class="h6"><strong>{{item.usuario.direccion}}</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </button>
+    </div>
+
+      <div class="col col-md-2 col-sm-12" #Botones>
+        <div class="btn-group">
+          <button class="btn btn-outline-danger">
+            <fa-icon [icon]="faEnvelope"></fa-icon>Mensaje
+          </button>
+
+        </div>
+        <div class="btn-group">
+          <button (click)="comprarArticulo(item, n22.value*1, (item.precio*1)*(n22.value*1))" class="btn">
+            <fa-icon [icon]="faDollarSign"></fa-icon> Comprar<a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp" target="_blank">
+              </a>
+          </button>
+          <!--<button (click)="deleteTask(item)" class="btn">
+            <fa-icon [icon]="faTrash"></fa-icon>
+          </button>-->
+        </div>
+      </div>
+    </div><!--row-->
+
+  </div><!---->
+
+
+</div>

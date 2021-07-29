@@ -1,0 +1,22 @@
+<div class="cart-item">
+
+  <table class="table table-hover">
+    <tbody>
+      <tr>
+        <td>
+          <span class="text-left">{{cartItem.nombre}}</span>
+        </td>
+        <td>
+          <strong class="text-center">{{ cartItem.precio | currency:'USD' }}</strong>
+        </td>
+        <button (click)="deleteTask(cartItem)" class="btn btn-outline-danger">
+          <fa-icon [icon]="faTrash"></fa-icon>
+        </button>
+        <!--td>
+              X
+            </td-->
+      </tr>
+    </tbody>
+  </table>
+
+</div>

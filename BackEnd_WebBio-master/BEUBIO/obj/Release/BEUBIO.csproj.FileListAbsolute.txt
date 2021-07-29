@@ -1,0 +1,28 @@
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\BEUBIO.dll.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\BEUBIO.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\BEUBIO.pdb
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.SqlServer.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\Newtonsoft.Json.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.SqlServer.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\bin\Release\Newtonsoft.Json.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.csprojAssemblyReference.cache
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.csproj.CoreCompileInputs.cache
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.csproj.CopyComplete
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\BEUBIO.dll.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\BEUBIO.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\BEUBIO.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.SqlServer.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\Newtonsoft.Json.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\EntityFramework.SqlServer.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\bin\Release\Newtonsoft.Json.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.csprojAssemblyReference.cache
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.csproj.CoreCompileInputs.cache
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.csproj.CopyComplete
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Release\BEUBIO.pdb

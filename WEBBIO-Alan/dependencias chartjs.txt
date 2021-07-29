@@ -1,0 +1,6 @@
+npm rm chartjs-plugin-datalabels
+npm rm ng2-charts
+npm install --save chart.js
+npm install --save ng2-charts
+npm install --save-dev ng2-charts-schematics
+npm install chartjs-plugin-datalabels --save

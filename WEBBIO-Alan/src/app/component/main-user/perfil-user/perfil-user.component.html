@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-xs-6 col-md-4 userr rounded-top">
+      <table class='table borderless'>
+          <tbody>
+            <tr>
+              <th><span>Nombre</span></th>
+              <td>{{usuario.nombres}}</td>
+            </tr>
+            <tr>
+              <th><span>Apellidos</span></th>
+              <td>{{usuario.apellidos}}</td>
+            </tr>
+            <tr>
+              <th><span>Correo</span></th>
+              <td>{{usuario.email}}</td>
+            </tr>
+            <tr class="container-fluid button ">
+              <span><a (click)="abrirComponente(1)" class="btn btn-outline-primary">Mi Cuenta</a></span>
+            </tr>
+            <tr class="container-fluid button">
+              <span><a (click)="abrirComponente(2)" class="btn btn-outline-primary">Mis Compras</a></span>
+            </tr>
+            <tr class="container-fluid button ">
+              <span><a (click)="abrirComponente(3)" class="btn btn-outline-primary">Mis productos</a></span>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+  <!--p *ngIf="articuloItem.cantidad==0">agotado</p-->
+  <div class="col-xs-12 col-sm-6 col-md-8" *ngIf= "loadComponentCuenta">
+      <app-usuario-card></app-usuario-card>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-8" *ngIf= "loadComponentList">
+      <app-venta-list></app-venta-list>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-8" *ngIf= "loadComponentForm">
+      <app-venta-form></app-venta-form>
+  </div>
+</div>

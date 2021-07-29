@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Entities_Bio-Web.config Connection String" description="Entities_Bio Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Modelo_eC_Bio.csdl|res://*/Modelo_eC_Bio.ssdl|res://*/Modelo_eC_Bio.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=SQL5105.site4now.net;Initial Catalog=db_a77f3a_webbio;User Id=db_a77f3a_webbio_admin;Password=!Ckkck1998&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\descargas\\Angular\\WEB-BIO\\WEB-BIO\\BackEnd_WebBio-master\\ApiTienda\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Entities_Bio']/@connectionString" />
+  </parameter>
+  <parameter name="EntitiesTienda-Web.config Connection String" description="EntitiesTienda Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=SQL5105.site4now.net;initial catalog=db_a77f3a_webbio;user id=db_a77f3a_webbio_admin;password=!Ckkck1998;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\descargas\\Angular\\WEB-BIO\\WEB-BIO\\BackEnd_WebBio-master\\ApiTienda\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EntitiesTienda']/@connectionString" />
+  </parameter>
+  <parameter name="ApiTienda.Models.EntitiesTienda-Web.config Connection String" description="ApiTienda.Models.EntitiesTienda Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="ApiTienda.Models.EntitiesTienda_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\descargas\\Angular\\WEB-BIO\\WEB-BIO\\BackEnd_WebBio-master\\ApiTienda\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApiTienda.Models.EntitiesTienda']/@connectionString" />
+  </parameter>
+</parameters>

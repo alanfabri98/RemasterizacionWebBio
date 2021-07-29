@@ -1,0 +1,24 @@
+nav{
+  background: #0D1440;
+}
+.user-loged{
+  width: auto;
+  background:#BF1736 ;
+  padding: 0%;
+  margin-left: 10vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1vw;
+}
+.user-loged img{
+  height: 3.5vw;
+  position: -2.5vw;
+}
+.col p, .salir{
+  color: #ffffff;
+  font-size: small;
+  margin: 0;
+  background:#BF1736 ;
+  border: none  ;
+}
+

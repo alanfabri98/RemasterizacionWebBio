@@ -1,0 +1,15 @@
+.row .userr {
+  background: rgb(0, 154, 206);
+  border: ridge solid 10px;
+}
+.btn-outline-primary{
+  background: #0D1440;
+
+}
+.button{
+  color: #ffffff;
+}
+.btn-outline-primary:hover{
+  background: rgb(255, 114, 118);
+  color: #0D1440;
+}

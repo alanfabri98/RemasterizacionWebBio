@@ -1,0 +1,67 @@
+<!--Mi stock-->
+<div class="card-body">
+
+  <!---->
+    <canvas id="Articulos"></canvas>
+  <!--
+    <app-negocio-list></app-negocio-list>
+  -->
+</div>
+<div class="card-body">
+
+  <!---->
+    <canvas id="StockArticulos"></canvas>
+  <!--
+    <app-negocio-list></app-negocio-list>
+  -->
+</div>
+<!--Mis compras-->
+<div class=" row">
+  <div class="col-3 border-right">
+    <h1>Mis Articulos</h1>
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="mascarillas-tab" data-toggle="pill" href="#mascarillas" role="tab" aria-controls="v-pills-home" aria-selected="true" (click)="listArticulos('Mascarillas')">Mascarillas</a>
+      <a class="nav-link" id="traje-tab" data-toggle="pill" href="#traje" role="tab" aria-controls="v-pills-profile" aria-selected="false" (click)="listArticulos('Trajes')">Trajes de Bioseguridad</a>
+      <a class="nav-link" id="guantes-tab" data-toggle="pill" href="#guantes" role="tab" aria-controls="v-pills-messages" aria-selected="false" (click)="listArticulos('Guantes')">Guantes</a>
+      <a class="nav-link" id="otros-tab" data-toggle="pill" href="#otros" role="tab" aria-controls="v-pills-settings" aria-selected="false" (click)="listArticulos('Otros')">Otros</a>
+    </div>
+  </div>
+  <!--Contenido-->
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="mascarillas" role="tabpanel" aria-labelledby="mascarillas-tab">
+        Mascarillas
+        <div class="row">
+          <div class="col-md-4" *ngFor="let articulo of listArticulo">
+            <app-articulo [articuloItem]="articulo"></app-articulo>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="traje" role="tabpanel" aria-labelledby="traje-tab">Trajes de Bioseguridad
+        <div class="row">
+          <div class="col-md-4" *ngFor="let articulo of listArticulo">
+            <app-articulo [articuloItem]="articulo"></app-articulo>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="guantes" role="tabpanel" aria-labelledby="guantes-tab">Guantes
+        <div class="row">
+          <div class="col-md-4" *ngFor="let articulo of listArticulo">
+            <app-articulo [articuloItem]="articulo"></app-articulo>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="otros" role="tabpanel" aria-labelledby="otros-tab">Otros
+        <div class="row">
+          <div class="col-md-4" *ngFor="let articulo of listArticulo">
+            <app-articulo [articuloItem]="articulo"></app-articulo>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

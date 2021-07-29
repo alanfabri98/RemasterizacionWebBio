@@ -1,0 +1,55 @@
+
+<nav class="sticky-top navbar navbar-expand-lg ">
+  <span class="navbar-brand text-light" data-aos="fade-right">Web-Bios</span>
+  <div class="collapse navbar-collapse" data-aos="fade-right">
+    <app-header ></app-header>
+  </div>
+
+  <form class=" form-inline ">
+    <button type="button" class="btn btn-primary float-left"  routerLink="/Miscompras">Mis Compras</button>
+    <!--boton carrito-->
+    <button type="button" class="btn btn-primary float-left" data-toggle="modal" data-target="#carrito"  data-aos="flip-left"><fa-icon [icon]='faShoppingCart'></fa-icon></button>
+    <a class="btn btn-outline-primary" routerLink="/login" data-aos="flip-right" *ngIf="user2 || !authServices.logIn() ">Iniciar secion</a>
+    <div class="container user-loged" data-aos="flip-right" *ngIf="user2">
+      <div class="row">
+        <img class="rounded-circle" src="{{ user2.photoUrl }}">
+        <div class="col justify-content-center">
+          <button class="text-truncate" [routerLink]="['/usuarios',authServices.getID()]">{{ user2.firstName }}</button>
+          <button class="salir" routerLink="/login" (click)="signOut()">Salir</button>
+        </div>
+      </div>
+    </div>
+    <div class="container user-loged" data-aos="flip-right" *ngIf="verificar()">
+      <div class="row">
+        <img class="rounded-circle" src="{{ user.img }}" alt="Img-User">
+        <div class="col justify-content-center">
+          <button class="salir" [routerLink]="['/usuarios',authServices.getID()]">{{ user.nombre }}</button><br>
+          <button class="salir" routerLink="/login" (click)="logOut()">Salir</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="carrito" tabindex="1" role="dialog" aria-labelledby="carritoTitle"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="carritoTitle">
+          <fa-icon [icon]='faShoppingCart'></fa-icon> &nbsp; Web-cart
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <app-carrito-main></app-carrito-main>
+      </div>
+    </div>
+  </div>
+</div>
+

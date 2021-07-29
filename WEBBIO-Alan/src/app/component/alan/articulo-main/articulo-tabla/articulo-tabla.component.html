@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Estado</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of articulos">
+          <td>{{ item.nombre }}</td>
+          <td>{{ item.precio | currency }}</td>
+          <td>{{ item.estado }}</td>
+          <td class="btn-group">
+
+            <button [routerLink]="['/articulos',item.nombre, item.idArticulo]" class="btn btn-outline-info">
+              <fa-icon [icon]="faEye"></fa-icon>
+            </button>
+
+            <button data-toggle="modal" data-target="#miModal" (click)="update(item)"
+              class="btn btn-outline-info" >
+              <fa-icon [icon]="faPencilAlt"></fa-icon>
+            </button>
+
+            <button (click)="deletee(item)" class="btn btn-outline-danger">
+              <fa-icon [icon]="faTrash"></fa-icon>
+            </button>
+
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

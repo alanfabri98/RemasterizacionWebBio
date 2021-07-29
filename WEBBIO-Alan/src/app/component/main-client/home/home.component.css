@@ -1,0 +1,10 @@
+.shadow-sm img{
+  height: 20vw;
+  object-fit: cover;
+}
+.col-md-3{
+  height: 30vw;
+}
+section{
+  height: 100%;
+}

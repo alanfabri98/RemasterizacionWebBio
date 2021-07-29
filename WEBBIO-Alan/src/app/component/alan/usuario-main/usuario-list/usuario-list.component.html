@@ -1,0 +1,51 @@
+<div>
+  <div class="text-center">
+      <fa-icon class="fa-2x"></fa-icon>
+  </div>
+  <hr>
+  <h5>Listado de usuarios</h5>
+  <table class="table table-hover">
+      <thead class="thead-dark">
+          <tr>
+              <th>
+                  Nombres
+              </th>
+              <th>
+                  Apellidos
+              </th>
+              <th>
+                  Direccion
+              </th>
+              <th></th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let item of usuarios;">
+              <td>
+                  {{item.nombres}}
+              </td>
+              <td>
+                  {{item.apellidos}}
+              </td>
+              <td>
+                  {{item.direccion}}
+              </td>
+              <td class="btn-group">
+                  <button [routerLink]="['/usuarios', item.idUsuario]" class="btn btn-outline-info">
+                      <fa-icon [icon]="faEye"></fa-icon>
+                  </button>
+                  <button data-toggle="modal" data-target="#miModal" (click)="update(item)"
+                      class="btn btn-outline-info">
+                      <fa-icon [icon]="faPencilAlt"></fa-icon>
+                  </button>
+                  <button (click)="delete(item)" class="btn btn-outline-danger">
+                      <fa-icon [icon]="faTrash"></fa-icon>
+                  </button>
+                  <!--<button (click)="update(item)" class="btn btn-sm btn-warning" ><fa-icon [icon]="faPencilAlt"></fa-icon></button>-->
+
+              </td>
+          </tr>
+
+      </tbody>
+  </table>
+</div>

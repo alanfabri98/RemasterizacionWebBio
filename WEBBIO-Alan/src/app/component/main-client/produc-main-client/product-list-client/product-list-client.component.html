@@ -1,0 +1,6 @@
+<div class="row">
+  <!--*ngFor -> es el forech de html,[] el contenido hay q cambiarlo con la lista que biene de la api, remplazandola en una funcion de servicio-->
+  <div class="col-md-4" *ngFor="let articulo of articulos_list">
+    <app-product-item-client [articuloItem]="articulo"></app-product-item-client>
+  </div>
+</div>

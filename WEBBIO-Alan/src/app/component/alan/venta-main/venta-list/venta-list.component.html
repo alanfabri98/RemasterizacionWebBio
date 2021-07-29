@@ -1,0 +1,64 @@
+<!--Estadisticas de articulos mas comprados-->
+<!--Estadisticas de mas comprados-->
+<div class="card-body">
+  <canvas id="Stock-Compras-ID"></canvas>
+</div>
+<div class="card-body">
+  <canvas id="Articulos"></canvas>
+</div>
+
+<div class="text-center">
+  <fa-icon class="fa-2x"></fa-icon>
+</div>
+<hr>
+
+<h5>Mis compras</h5>
+<table class="table table-hover " *ngIf="false">
+  <thead class="thead-dark">
+    <tr>
+      <th>
+        Nº
+      </th>
+      <th>
+        Id User
+      </th>
+      <th>
+        Id Venta
+      </th>
+      <th>
+        Venta Total
+      </th>
+      <th>
+        Detalle
+      </th>
+      <th>
+        Subtotal
+      </th>
+      <th>
+        Unidad
+      </th>
+      <th>
+        Usuario
+      </th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of ventasV; index as i">
+      <td>
+        {{i+1}}
+      </td>
+      <td>
+        {{item.idUsuario}}
+      </td>
+      <td>
+        {{item.idVenta }}
+      </td>
+      <td>
+        <!--onchange="sumar(this.value);"-->
+        <label>{{item.total}}</label>
+      </td>
+    </tr>
+  </tbody>
+</table>
+

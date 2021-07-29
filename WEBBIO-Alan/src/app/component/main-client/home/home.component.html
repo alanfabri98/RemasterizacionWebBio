@@ -1,0 +1,53 @@
+<div class="content-fluid">
+  <app-slider></app-slider>
+</div>
+
+<span class="hero__scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+  Scroll down <br>
+  <i class="chevron bottom"></i>
+</span>
+<br>
+<section>
+  <div class="album py-5 bg-light">
+    <div class="container">
+        <div class="page-header text-center">
+            <h5 >Productos</h5>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-2 shadow-sm">
+                  <img class="card-img-top" data-aos="flip-right" src="../../../assets/img/articulos/guantesBlanco.png" alt="Card image cap">
+                  <a [routerLink]="['/articulos','Guantes']" class="btn btn-primary">Guantes</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-2 shadow-sm">
+                  <img class="card-img-top" data-aos="flip-left" src="../../../assets/img/articulos/mascarillaBio3m.jpg" alt="Card image cap">
+                  <a [routerLink]="['/articulos','Mascarillas']" class="btn btn-primary">Mascarillas</a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card mb-2 shadow-sm">
+                  <img class="card-img-top" data-aos="flip-right" src="../../../assets/img/articulos/trajeBioAzul.jpg" alt="Card image cap">
+                  <a [routerLink]="['/articulos','Trajes']" class="btn btn-primary">Trajes</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-2 shadow-sm">
+                  <!--h5 class="card-title"></h5-->
+                  <img class="card-img-top" data-aos="flip-left" src="../../../assets/img/articulos/guantesBlanco.png" alt="Card image cap">
+                  <a [routerLink]="['/articulos','Otros']" class="btn btn-primary">Otros</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card mb-2 shadow-sm">
+                <!--h5 class="card-title"></h5-->
+                <img class="card-img-top" data-aos="flip-left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwffUk28x25wJOK4yw9PaimYulKlbpOG_dZQ&usqp=CAU" alt="Card image cap">
+                <a [routerLink]="['Reportes']" class="btn btn-primary">Estadistica</a>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</section>

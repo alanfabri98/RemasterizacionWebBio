@@ -1,0 +1,10 @@
+<div *ngIf="cartItems_.length===0" class="alert alert-info">No hay items agregados al carrito</div>
+<!--Esta seccion de carrilo se puede cambiar por un carrito vacio cuando no hay prouctos añadidos-->
+<ul *ngIf="cartItems_.length > 0" class="list-group">
+  <li class="list-group-item" *ngFor="let item_ of cartItems_">
+    <app-articulo-carrito [cartItem]="item_"></app-articulo-carrito>
+  </li>
+  <li class="list-group-item active">
+    <button type="button" routerLink="/detalleCart" data-toggle="modal" data-target="#carrito" class="btn btn-primary btn-block"><strong>Detalle</strong></button>
+  </li>
+</ul>

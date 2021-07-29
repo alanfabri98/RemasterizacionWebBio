@@ -1,0 +1,121 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-md-12 col-sm-12">
+      <!--comi-->
+      <div class="card-body">
+        <div class="row d-flex justify-content-around">
+          <div class="col top ">
+            <div class="media ">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faLayerGroup'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Nombre</small>
+                <p class="h6"><strong>{{usuarioItemList.nombres}}&nbsp;{{usuarioItemList.apellidos}}</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col top">
+            <div class="media">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faMoneyBill'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Dirección</small>
+                <p class="h6"><strong>{{usuarioItemList.direccion}}</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-around">
+          <div class="col top">
+            <div class="media">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faClipboardList'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Email</small>
+                <p class="h6"><strong>{{usuarioItemList.email}}</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col top">
+            <div class="media">
+              <div class="media-left">
+                <fa-icon class="mr-3 fa-1x" [icon]='faTags'></fa-icon>
+              </div>
+              <div class="media-body">
+                <small class="media-heading">Teléfono</small>
+                <p class="h6"><strong>{{usuarioItemList.telefono}}</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class=" w-100 d-flex mt-2"><!--aqui van los botones-->
+          <div class="p-2 flex-grow-1 bd-highlight ">
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="text-center">
+                <a class="btn btn-success btn-block"><strong>Contactar</strong></a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div><!--End Usuario comprador-->
+    </div>
+    <div class="col col-md-12 col-sm-12">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="mastacillas-tab" data-toggle="tab" href="#mastacillas" role="tab" aria-controls="mastacillas"
+            aria-selected="true" (click)="listArticulos('Mascarillas')">Mascarillas</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="trajes-tab" data-toggle="tab" href="#trajes" role="tab" aria-controls="trajes"
+            aria-selected="false" (click)="listArticulos('Trajes')">Trajes de Bioseguridad</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="guantes-tab" data-toggle="tab" href="#guantes" role="tab" aria-controls="guantes"
+            aria-selected="false" (click)="listArticulos('Guantes')">Guantes</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="otros-tab" data-toggle="tab" href="#otros" role="tab" aria-controls="otros"
+            aria-selected="false" (click)="listArticulos('Otros')">Otro</a>
+        </li>
+      </ul><!--end-->
+      <div class="tab-content p-3" id="myTabContent">
+        <div class="tab-pane fade show active" id="mastacillas" role="tabpanel" aria-labelledby="mastacillas-tab">
+          <div class="row">
+            <div class="col-md-3" *ngFor="let articulo of articulosUser">
+              <app-articulo [articuloItem]="articulo"></app-articulo>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="trajes" role="tabpanel" aria-labelledby="trajes-tab">
+          <div class="row">
+            <div class="col-md-3" *ngFor="let articulo of articulosUser">
+              <app-articulo [articuloItem]="articulo"></app-articulo>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="guantes" role="tabpanel" aria-labelledby="guantes-tab">
+          <div class="row">
+            <div class="col-md-3" *ngFor="let articulo of articulosUser">
+              <app-articulo [articuloItem]="articulo"></app-articulo>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="otros" role="tabpanel" aria-labelledby="otros-tab">
+          <div class="row">
+            <div class="col-md-3" *ngFor="let articulo of articulosUser">
+              <app-articulo [articuloItem]="articulo"></app-articulo>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

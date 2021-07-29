@@ -1,0 +1,312 @@
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\ApiTienda.dll.config
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\ApiTienda.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\ApiTienda.pdb
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\csc.exe
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\csc.exe.config
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\csc.rsp
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\csi.exe
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\csi.exe.config
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\csi.rsp
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.AppContext.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Console.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.IO.Compression.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Net.Http.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Net.Sockets.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.ValueTuple.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Xml.XPath.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\vbc.exe
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\vbc.exe.config
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\vbc.rsp
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\VBCSCompiler.exe
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Antlr3.Runtime.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\EntityFramework.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\EntityFramework.SqlServer.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Newtonsoft.Json.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Net.Http.Formatting.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Helpers.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Http.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Http.WebHost.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Mvc.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Optimization.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Razor.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.WebPages.Deployment.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.WebPages.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.WebPages.Razor.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\WebGrease.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\EntityFramework.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\EntityFramework.SqlServer.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Newtonsoft.Json.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Net.Http.Formatting.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Helpers.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Http.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Http.WebHost.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Mvc.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Optimization.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Razor.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.WebPages.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.WebPages.Deployment.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.WebPages.Razor.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Antlr3.Runtime.pdb
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.Helpers.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.Http.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.Mvc.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.Optimization.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.Razor.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.WebPages.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\obj\Release\ApiTienda.csproj.CoreCompileInputs.cache
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\obj\Release\ApiTienda.csproj.CopyComplete
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\obj\Release\ApiTienda.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\obj\Release\ApiTienda.pdb
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Cors.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Http.Cors.dll
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\bin\System.Web.Http.Cors.xml
+C:\Users\manot\Documents\ES 6TO 2\cetificacion 1\UNIDAD 2\SlnApiTienda\ApiTienda\obj\Release\ApiTienda.csprojAssemblyReference.cache
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\ApiTienda.dll.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\ApiTienda.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\ApiTienda.pdb
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csc.exe
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csc.exe.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csc.rsp
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csi.exe
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csi.exe.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csi.rsp
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.AppContext.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Collections.Immutable.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Console.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.Compression.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.FileSystem.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Net.Http.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Net.Sockets.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.ValueTuple.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.XPath.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\vbc.exe
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\vbc.exe.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\vbc.rsp
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\VBCSCompiler.exe
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\roslyn\VBCSCompiler.exe.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Antlr3.Runtime.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\BEUBIO.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.SqlServer.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Microsoft.Web.Infrastructure.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Newtonsoft.Json.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Net.Http.Formatting.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Cors.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Helpers.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.Cors.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.WebHost.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Mvc.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Optimization.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Razor.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Deployment.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Razor.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\WebGrease.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\BEUBIO.pdb
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\BEUBIO.dll.config
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.SqlServer.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.Cors.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Newtonsoft.Json.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Net.Http.Formatting.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Helpers.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.WebHost.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Mvc.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Optimization.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Razor.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Deployment.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Razor.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Antlr3.Runtime.pdb
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Helpers.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Http.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Mvc.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Optimization.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Razor.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.WebPages.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.csprojAssemblyReference.cache
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.csproj.CoreCompileInputs.cache
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.csproj.CopyComplete
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.dll
+D:\Documentos\ESPE\Sexto Semestre\Certificacion I\datosDeniss\Versiones\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\ApiTienda.dll.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\ApiTienda.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\ApiTienda.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csc.exe
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csc.exe.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csc.rsp
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csi.exe
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csi.exe.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\csi.rsp
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.Managed.Core.targets
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.AppContext.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Collections.Immutable.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Console.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Globalization.Calendars.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.Compression.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.FileSystem.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Net.Http.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Net.Sockets.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Reflection.Metadata.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.ValueTuple.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.XmlDocument.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.XPath.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\vbc.exe
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\vbc.exe.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\vbc.rsp
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\VBCSCompiler.exe
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\roslyn\VBCSCompiler.exe.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Antlr3.Runtime.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\BEUBIO.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.SqlServer.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Microsoft.Web.Infrastructure.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Newtonsoft.Json.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Net.Http.Formatting.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Cors.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Helpers.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.Cors.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.WebHost.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Mvc.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Optimization.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Razor.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Deployment.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Razor.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\WebGrease.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\BEUBIO.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\BEUBIO.dll.config
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\EntityFramework.SqlServer.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.Cors.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Newtonsoft.Json.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Net.Http.Formatting.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Helpers.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Http.WebHost.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Mvc.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Optimization.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.Razor.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Deployment.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Web.WebPages.Razor.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Antlr3.Runtime.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Net.Http.Formatting.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Helpers.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Http.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Http.WebHost.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Mvc.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Optimization.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.Razor.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.WebPages.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.csprojAssemblyReference.cache
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.csproj.CoreCompileInputs.cache
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.csproj.CopyComplete
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Release\ApiTienda.pdb
