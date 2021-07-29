@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as Chart from 'chart.js';
-import { Categoria } from 'src/app/models/stock-usuarios/categoria';
-import { StockUsuarios } from 'src/app/models/stock-usuarios/stock-usuarios';
-import { StockUsuariosService } from 'src/app/services/rtp-stock-usuarios/stock-usuarios.service';
+import { Categoria } from 'src/app/models/categoria';
+import { StockUsuarios } from 'src/app/models/stock-usuarios';
+import { StockUsuariosService } from 'src/app/services/rpt/stock-usuarios.service';
 
 @Component({
   selector: 'app-venta-stock',

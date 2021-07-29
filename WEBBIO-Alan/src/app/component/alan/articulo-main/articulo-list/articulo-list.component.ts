@@ -1,8 +1,8 @@
 import { Component, OnInit, SimpleChanges, Input  } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
 import { faListAlt, faEye, faPencilAlt, faTrash } from '@fortawesome/free-solid-svg-icons';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
 import { ActivatedRoute } from '@angular/router';
+import { ArticuloService } from 'src/app/services/articulo.service';
+import { Articulo } from 'src/app/models/articulo';
 declare let alertify: any
 
 @Component({

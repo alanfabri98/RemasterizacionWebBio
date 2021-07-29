@@ -92,3 +92,4 @@ D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Debug\BEUB
 D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Debug\BEUBIO.csproj.CopyComplete
 D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Debug\BEUBIO.dll
 D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Debug\BEUBIO.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\BEUBIO\obj\Debug\BEUBIO.csprojAssemblyReference.cache

@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { Venta } from 'src/app/models/venta/venta';
-import { Negocio } from 'src/app/models/negocio/negocio';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { VentaService } from 'src/app/services/venta/venta.service';
+import { Venta } from 'src/app/models/venta';
+import { Negocio } from 'src/app/models/negocio';
+import { Articulo } from 'src/app/models/articulo';
+import { VentaService } from 'src/app/services/venta.service';
 
-import { MasCompradosService } from 'src/app/services/rtp-mas-comprados/mas-comprados.service';
+import { MasCompradosService } from 'src/app/services/rpt/mas-comprados.service';
 import { SingleDataSet, Label } from 'ng2-charts';
 import * as Chart from 'chart.js';
-import { MasComprados } from 'src/app/models/mas-comprados/mas-comprados';
-import { Categoria } from 'src/app/models/stock-usuarios/categoria';
-import { StockUsuarios } from 'src/app/models/stock-usuarios/stock-usuarios';
-import { StockUsuariosService } from 'src/app/services/rtp-stock-usuarios/stock-usuarios.service';
+import { MasComprados } from 'src/app/models/mas-comprados';
+import { Categoria } from 'src/app/models/categoria';
+import { StockUsuarios } from 'src/app/models/stock-usuarios';
+import { StockUsuariosService } from 'src/app/services/rpt/stock-usuarios.service';
 
 @Component({
   selector: 'app-venta-list',

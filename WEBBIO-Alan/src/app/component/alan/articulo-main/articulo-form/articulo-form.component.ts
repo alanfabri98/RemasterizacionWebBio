@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, EventEmitter } from '@angular/core';
 import { FormBuilder, FormGroup, Validators} from '@angular/forms';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
+import { Articulo } from 'src/app/models/articulo';
+import { ArticuloService } from 'src/app/services/articulo.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { faBiohazard, faMoneyBill, faInfo, faSave, faTimes, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { NewArticulo } from 'src/app/models/new-articulo';

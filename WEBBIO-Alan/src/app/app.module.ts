@@ -42,7 +42,7 @@ import { ArticuloUsuarioComponent } from './component/alan/articulo-main/articul
 import { ArticuloMainComponent } from './component/alan/articulo-main/articulo-main.component';
 import { DetalleCarritoComponent } from './component/alan/carrito-main/detalle-carrito/detalle-carrito.component';
 import { CarritoMainComponent } from "./component/alan/carrito-main/carrito-main.component";
-import { UserService } from './services/user/user.service';
+import { UserService } from './services/user.service';
 import { ServicesInterceptor } from "./services/services.interceptor";
 import { ProductoItemComponent } from "./component/alan/producto-list/producto-item/producto-item.component";
 import { ProductoListComponent } from "./component/alan/producto-list/producto-list.component";
@@ -67,7 +67,7 @@ import {
 
 import { ScrollingModule } from "@angular/cdk/scrolling";
 import { ModalComponent } from './header/modal/modal.component';
-import { VentaService } from './services/venta/venta.service';
+import { VentaService } from './services/venta.service';
 import { VentaCantidadComponent } from './component/estadistica-main/estadistica-stock/Estadistica/venta-cantidad/venta-cantidad.component';
 import { VentaStockComponent } from './component/estadistica-main/estadistica-stock/venta-stock/venta-stock.component';
 import { CompraComponent } from './component/estadistica-main/estadistica-stock/compra/compra.component';

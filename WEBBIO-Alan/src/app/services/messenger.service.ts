@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
+import { Articulo } from '../models/articulo';
 
 @Injectable({
   providedIn: 'root'

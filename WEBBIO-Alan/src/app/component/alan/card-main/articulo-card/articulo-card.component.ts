@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
+import { Articulo } from 'src/app/models/articulo';
+import { ArticuloService } from 'src/app/services/articulo.service';
 import { ActivatedRoute } from '@angular/router';
 import { faLayerGroup, faTags,faIdBadge, faClipboardList,faMoneyBill, faInfo, faSave } from '@fortawesome/free-solid-svg-icons';
-import { UserService } from 'src/app/services/user/user.service';
-import { User } from 'src/app/models/user/user';
+import { UserService } from 'src/app/services/user.service';
+import { User } from 'src/app/models/user';
 
 @Component({
   selector: 'app-articulo-card',

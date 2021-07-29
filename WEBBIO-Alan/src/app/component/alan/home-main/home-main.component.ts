@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { User } from 'src/app/models/user/user';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
+import { User } from 'src/app/models/user';
+import { Articulo } from 'src/app/models/articulo';
+import { ArticuloService } from 'src/app/services/articulo.service';
 
 @Component({
   selector: 'app-home-main',

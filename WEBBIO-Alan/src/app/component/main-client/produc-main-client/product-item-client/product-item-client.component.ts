@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
+import { Articulo } from 'src/app/models/articulo';
 
 @Component({
   selector: 'app-product-item-client',

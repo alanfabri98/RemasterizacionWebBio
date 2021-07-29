@@ -1,8 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { faUserPlus, faIdCard, faSave, faTimes, faUser, faCalendar, faMapMarkedAlt, faPhone, faAt, faUnlock } from '@fortawesome/free-solid-svg-icons';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { UserService } from "../../services/user/user.service";
-import { User } from "../../models/user/user";
+import { UserService } from "../../services/user.service";
+import { User } from "../../models/user";
 
 @Component({
   selector: 'app-register',

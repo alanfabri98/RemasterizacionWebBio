@@ -1,17 +1,17 @@
 //Este esta bien
 import { Component, OnInit } from '@angular/core';
-import { MessengerService } from 'src/app/services/message/messenger.service';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { UserService } from 'src/app/services/user/user.service';
-import { User } from 'src/app/models/user/user';
+import { MessengerService } from 'src/app/services/messenger.service';
+import { Articulo } from 'src/app/models/articulo';
+import { UserService } from 'src/app/services/user.service';
+import { User } from 'src/app/models/user';
 import { ActivatedRoute, Router } from '@angular/router';
 //import swal from 'sweetalert2';
 import { faDollarSign,faUserTag, faHandHoldingUsd,faAt, faMapMarkedAlt,  faEnvelope, faEye, faTrash, faPhone,faLayerGroup, faTags,faIdBadge, faClipboardList,faMoneyBill, faInfo, faSave } from '@fortawesome/free-solid-svg-icons';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
-import { NegocioService } from 'src/app/services/negocio/negocio.service';
-import { VentaService } from 'src/app/services/venta/venta.service';
-import { Negocio } from 'src/app/models/negocio/negocio';
-import { Venta } from 'src/app/models/venta/venta';
+import { ArticuloService } from 'src/app/services/articulo.service';
+import { NegocioService } from 'src/app/services/negocio.service';
+import { VentaService } from 'src/app/services/venta.service';
+import { Negocio } from 'src/app/models/negocio';
+import { Venta } from 'src/app/models/venta';
 import { ThemeService } from 'ng2-charts';
 import { AuthService } from 'src/app/services/auth.service';
 //faenvelope icon de mensaje
@@ -70,6 +70,7 @@ export class DetalleCarritoComponent implements OnInit {
     ) {}
 
   ngOnInit(): void {
+    this.usuarioCarrito = new User();
     this.listarItems();
     this.carrito.forEach((x,i) => {
       this.total=this.total + this.totalVenta(x.precio,1);

@@ -1,9 +1,9 @@
 //Mi stock
 import { Component, OnInit } from '@angular/core';
 
-import { StockUsuariosService } from 'src/app/services/rtp-stock-usuarios/stock-usuarios.service';
-import { StockUsuarios } from 'src/app/models/stock-usuarios/stock-usuarios';
-import { Categoria } from 'src/app/models/stock-usuarios/categoria';
+import { StockUsuariosService } from 'src/app/services/rpt/stock-usuarios.service';
+import { StockUsuarios } from 'src/app/models/stock-usuarios';
+import { Categoria } from 'src/app/models/categoria';
 import * as Chart from 'chart.js';
 
 

@@ -1,16 +1,16 @@
 //Mi stock
 import { Component, OnInit } from '@angular/core';
 import { faEye, faPencilAlt, faTrash } from '@fortawesome/free-solid-svg-icons';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
+import { Articulo } from 'src/app/models/articulo';
+import { ArticuloService } from 'src/app/services/articulo.service';
 import { ActivatedRoute } from '@angular/router';
 
-import { StockService } from 'src/app/services/rtp-stock/stock.service';
-import { StockUsuariosService } from 'src/app/services/rtp-stock-usuarios/stock-usuarios.service';
+import { StockService } from 'src/app/services/rpt/stock.service';
+import { StockUsuariosService } from 'src/app/services/rpt/stock-usuarios.service';
 import { SingleDataSet, Label } from 'ng2-charts';
 import * as Chart from 'chart.js';
-import { Stock } from 'src/app/models/stock/stock';
-import { StockUsuarios } from 'src/app/models/stock-usuarios/stock-usuarios';
+import { Stock } from 'src/app/models/stock';
+import { StockUsuarios } from 'src/app/models/stock-usuarios';
 
 @Component({
   selector: 'app-venta-form',

@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { MessengerService } from 'src/app/services/message/messenger.service';
+import { Articulo } from 'src/app/models/articulo';
+import { MessengerService } from 'src/app/services/messenger.service';
 
 @Component({
   selector: 'app-cart-item',

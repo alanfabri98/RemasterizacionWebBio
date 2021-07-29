@@ -2,8 +2,6 @@ import { Injectable } from '@angular/core';
 import {Observable } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { retry } from 'rxjs/operators';
-import { StockUsuarios } from 'src/app/models/stock-usuarios/stock-usuarios';
-import { Stock } from 'src/app/models/stock/stock';
 
 @Injectable({
   providedIn: 'root'

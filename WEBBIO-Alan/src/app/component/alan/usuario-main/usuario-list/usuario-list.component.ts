@@ -2,8 +2,8 @@ import { Component, OnInit, Input, Output, EventEmitter, SimpleChanges } from '@
 import { faListAlt, faEye, faPencilAlt, faTrash } from '@fortawesome/free-solid-svg-icons';
 //import swal from 'sweetalert2';
 declare let alertify:any;
-import { User } from 'src/app/models/user/user';
-import { UserService } from 'src/app/services/user/user.service';
+import { User } from 'src/app/models/user';
+import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'app-usuario-list',

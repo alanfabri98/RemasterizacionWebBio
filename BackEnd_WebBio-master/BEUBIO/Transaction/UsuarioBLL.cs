@@ -177,7 +177,11 @@ namespace BEUBIO.Transaction
                     using (var transaction = db.Database.BeginTransaction())
                     {
                         Usuario userLogin = db.Usuarios.Find(id);
-                        userLogin.token_temp = null;
+                        if (userLogin.token_temp == null)
+                        {
+                            return false;
+                        }
+                        //userLogin.token_temp = null;
                         db.Usuarios.Attach(userLogin);
                         db.Entry(userLogin).State = System.Data.Entity.EntityState.Modified;
                         db.SaveChanges();

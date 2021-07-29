@@ -1,6 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
-import { User } from 'src/app/models/user/user';
+import { User } from 'src/app/models/user';
 
 @Component({
   selector: 'app-usuario-main',

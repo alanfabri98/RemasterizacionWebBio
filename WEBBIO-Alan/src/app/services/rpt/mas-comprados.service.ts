@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { MasComprados } from 'src/app/models/mas-comprados/mas-comprados';
+import { MasComprados } from 'src/app/models/mas-comprados';
 import {Observable } from 'rxjs';
 import { retry } from 'rxjs/operators';
 

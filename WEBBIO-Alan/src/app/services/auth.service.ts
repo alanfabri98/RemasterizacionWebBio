@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +10,7 @@ export class AuthService {
 
   //atributos
   //private url="https://localhost:44380/api/Usuarios?e=dmmanotoa@espe.edu.ec&p=123456";
-  url : string = "https://localhost:44380/api";
+  urlService : String = environment.url;
   //private url="http://alanfabri-001-site1.ftempurl.com/api";
   //private url="https://localhost:44380/api";
   constructor(
@@ -20,7 +21,7 @@ export class AuthService {
 
   singIn(user){//iniciar sesion
     //retorna el token en estring
-    return this.http.post<any>(this.url+'/Usuarios/Login',user)
+    return this.http.post<any>(this.urlService+'/Usuarios/Login',user)
   }
   //fincion
   logIn(){//conectado
@@ -39,6 +40,6 @@ export class AuthService {
   logOut(){//cerrar sesión
     localStorage.removeItem('token');
     localStorage.removeItem('name');
-    return this.http.post<any>(this.url+'/Usuarios/LogOut/'+localStorage.getItem('id'),localStorage.getItem('id'));
+    return this.http.post<any>(this.urlService+'/Usuarios/LogOut/'+localStorage.getItem('id'),localStorage.getItem('id'));
   }
 }

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Observable } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { retry } from 'rxjs/operators';
-import { Stock } from 'src/app/models/stock/stock';
+import { Stock } from 'src/app/models/stock';
 
 @Injectable({
   providedIn: 'root'

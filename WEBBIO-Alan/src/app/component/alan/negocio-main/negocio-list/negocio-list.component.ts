@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ChartOptions, ChartType, ChartDataSets } from 'chart.js';
 //import * as pluginDataLabels from 'chartjs-plugin-datalabels';
 import { Label } from 'ng2-charts';
-import { Stock } from 'src/app/models/stock/stock';
-import { StockService } from 'src/app/services/rtp-stock/stock.service';
+import { Stock } from 'src/app/models/stock';
+import { StockService } from 'src/app/services/rpt/stock.service';
 //'chartjs-plugin-datalabels'
 @Component({
   selector: 'app-negocio-list',

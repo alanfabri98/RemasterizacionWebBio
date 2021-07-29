@@ -1,9 +1,9 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { User } from 'src/app/models/user/user';
-import { UserService } from 'src/app/services/user/user.service';
+import { User } from 'src/app/models/user';
+import { UserService } from 'src/app/services/user.service';
 import { ActivatedRoute } from '@angular/router';
 import { faEye,faSave,faUserPlus,faUnlock,faTimes, faPencilAlt, faTrash, faUser, faIdCard, faCalendar, faMapMarked, faGenderless, faUserAlt, faMapMarkedAlt, faPhone, faAt } from '@fortawesome/free-solid-svg-icons';
-import { Articulo } from 'src/app/models/articulo/articulo';
+import { Articulo } from 'src/app/models/articulo';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 declare let alertify:any;
 

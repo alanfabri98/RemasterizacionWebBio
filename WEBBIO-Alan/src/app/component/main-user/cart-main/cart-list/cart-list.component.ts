@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { User } from 'src/app/models/user/user';
+import { Articulo } from 'src/app/models/articulo';
+import { User } from 'src/app/models/user';
 import { faDollarSign,faUserTag, faHandHoldingUsd,faAt, faMapMarkedAlt,  faEnvelope, faEye, faTrash, faPhone,faLayerGroup, faTags,faIdBadge, faClipboardList,faMoneyBill, faInfo, faSave } from '@fortawesome/free-solid-svg-icons';
-import { UserService } from 'src/app/services/user/user.service';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
+import { UserService } from 'src/app/services/user.service';
+import { ArticuloService } from 'src/app/services/articulo.service';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({

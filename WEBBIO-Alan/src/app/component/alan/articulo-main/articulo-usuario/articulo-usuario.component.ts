@@ -1,9 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Articulo } from 'src/app/models/articulo/articulo';
-import { ArticuloService } from 'src/app/services/articulo/articulo.service';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { faBiohazard, faMoneyBill, faInfo, faSave, faTimes, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { Articulo } from 'src/app/models/articulo';
+import { ArticuloService } from 'src/app/services/articulo.service';
 
 @Component({
   selector: 'app-articulo-usuario',

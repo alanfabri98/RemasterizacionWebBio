@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Articulo } from 'src/app/models/articulo/articulo';
+import { Articulo } from 'src/app/models/articulo';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
-import { MessengerService } from 'src/app/services/message/messenger.service';
+import { MessengerService } from 'src/app/services/messenger.service';
 
 @Component({
   selector: 'app-articulo-carrito',

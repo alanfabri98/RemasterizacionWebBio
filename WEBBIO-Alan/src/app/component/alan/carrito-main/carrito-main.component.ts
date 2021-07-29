@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, SimpleChanges } from '@angular/core';
-import { MessengerService } from 'src/app/services/message/messenger.service'
-import { Articulo } from 'src/app/models/articulo/articulo';
+import { MessengerService } from 'src/app/services/messenger.service'
+import { Articulo } from 'src/app/models/articulo';
 
 @Component({
   selector: 'app-carrito-main',
