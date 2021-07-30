@@ -159,6 +159,8 @@
     <Property Name="token_temp" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Articuloes" Relationship="Modelo_Bio.FK_Articulo_Usuario" FromRole="Usuario" ToRole="Articulo" />
     <NavigationProperty Name="Ventas" Relationship="Modelo_Bio.FK_Venta_Usuario" FromRole="Usuario" ToRole="Venta" />
+    <Property Name="tipoImgRegistro" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="tipoImgLogin" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Venta">
     <Key>

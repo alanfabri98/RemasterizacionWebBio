@@ -31,6 +31,8 @@
     <EntitySetMapping Name="Usuarios">
       <EntityTypeMapping TypeName="Modelo_Bio.Usuario">
         <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="tipoImgLogin" ColumnName="tipoImgLogin" />
+          <ScalarProperty Name="tipoImgRegistro" ColumnName="tipoImgRegistro" />
           <ScalarProperty Name="token_temp" ColumnName="token_temp" />
           <ScalarProperty Name="contrasena" ColumnName="contrasena" />
           <ScalarProperty Name="estado" ColumnName="estado" />

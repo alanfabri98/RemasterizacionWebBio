@@ -16,4 +16,6 @@ export class Articulo {
     imagen : string;
     cantidad : number;
     usuario:User;
+    tipoImgRegistro : string;
+    tipoImgLogin : string;
 }

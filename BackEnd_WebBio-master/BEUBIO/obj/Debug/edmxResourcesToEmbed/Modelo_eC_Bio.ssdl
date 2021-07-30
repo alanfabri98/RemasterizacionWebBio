@@ -38,6 +38,8 @@
     <Property Name="estado" Type="nchar" MaxLength="1" />
     <Property Name="contrasena" Type="varchar" MaxLength="50" />
     <Property Name="token_temp" Type="varchar(max)" />
+    <Property Name="tipoImgRegistro" Type="varchar" MaxLength="150" />
+    <Property Name="tipoImgLogin" Type="varchar" MaxLength="150" />
   </EntityType>
   <EntityType Name="Venta">
     <Key>

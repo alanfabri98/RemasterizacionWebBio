@@ -1,3 +1,4 @@
+<!--Parte del ricky-->
 <div class="row">
   <div class="col"></div>
   <div class="col-lg-4 col-md-8 col-sm-12">
@@ -11,9 +12,13 @@
       <input type="password" #inputPassword class="form-control" placeholder="Password" formControlName="password" [(ngModel)]="user.password">
       
       <hr>
-      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="singIn2()" [disabled]="!form.valid">Sign in</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="singIn2()" [disabled]="!form.valid">Iniciar secion</button>
+      
+      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="singIn2()" [disabled]="!form.valid">Registrarse</button>
+      <p><a><u>¿Has olvidado tu contrasea?</u></a></p>
       <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
     </form>
 
   </div>
 </div>
+<app-usuario-form></app-usuario-form>

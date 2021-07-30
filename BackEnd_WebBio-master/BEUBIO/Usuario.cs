@@ -47,13 +47,16 @@ public partial class Usuario
 
     public string token_temp { get; set; }
 
+    public string tipoImgRegistro { get; set; }
+
+    public string tipoImgLogin { get; set; }
+
         [JsonIgnore]
 
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 
     public virtual ICollection<Articulo> Articuloes { get; set; }
         [JsonIgnore]
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 
     public virtual ICollection<Venta> Ventas { get; set; }
