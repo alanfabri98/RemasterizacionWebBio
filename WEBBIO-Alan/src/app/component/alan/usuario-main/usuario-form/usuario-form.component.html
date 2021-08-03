@@ -1,94 +1,103 @@
+<div class="text-center">
+    <fa-icon class="fa-2x" [icon]="faUserPlus"></fa-icon>
+</div>
+<hr>
+<h6>{{title}}</h6>
 
-    <div class="text-center">
-        <fa-icon class="fa-2x" [icon]="faUserPlus"></fa-icon>
-    </div>
-    <hr>
-    <h6>{{title}}</h6>
-
-    <form [formGroup]="form"  class="user">
-        <div class="card-body">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><fa-icon [icon]='faUserPlus'></fa-icon></span>
-                </div>
-                <input formControlName="nombre" type="text" class="form-control form-control-user"
-                    [(ngModel)] = "usuario.nombres"
-                    [ngClass]="{'is-invalid': submitted && f.nombre.errors}"
-                    placeholder="nombre" />
-                <div *ngIf="submitted && f.nombre.errors" class="invalid-feedback">
-                    <div *ngIf="f.nombre.errors.required">Los nombre son requeridos </div>
-                    <div *ngIf="f.nombre.errors.minlength">Los nombre debe tener maximo 50 caracteres</div>
-                </div>
+<form [formGroup]="form" class="user">
+    <div class="card-body">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faUserPlus'></fa-icon>
+                </span>
             </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><fa-icon [icon]='faIdCard'></fa-icon></span>
-                </div>
-                <input formControlName="apellidos" type="text" class="form-control form-control-user"
-                    [(ngModel)]="usuario.apellidos"
-                    [ngClass]="{'is-invalid': submitted && f.apellidos.errors}"
-                    placeholder="Apellidos" />
-                <div *ngIf="submitted && f.apellidos.errors" class="invalid-feedback">
-                    <div *ngIf="f.apellidos.errors.required">Los apellidos son requeridos </div>
-                    <div *ngIf="f.apellidos.errors.minlength">Los apellidos debe tener maximo 50 caracteres</div>
-                </div>
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><fa-icon [icon]='faMapMarkedAlt'></fa-icon></span>
-                </div>
-                <input formControlName="direccion" type="text" class="form-control form-control-user" [(ngModel)]="usuario.direccion"
-                    [ngClass]="{'is-invalid': submitted && f.direccion.errors}"
-                    placeholder="Direccion" />
-                <div *ngIf="submitted && f.direccion.errors" class="invalid-feedback">
-                    <div *ngIf="f.direccion.errors.required">La direccion es requerida </div>
-                    <div *ngIf="f.direccion.errors.minlength">La direccion debe tener maximo 100 caracteres</div>
-                </div>
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><fa-icon [icon]='faPhone'></fa-icon></span>
-                </div>
-                <input formControlName="telefono" type="text" class="form-control form-control-user" [(ngModel)]="usuario.telefono"
-                    [ngClass]="{'is-invalid': submitted && f.telefono.errors}"
-                    placeholder="Telefono" />
-                <div *ngIf="submitted && f.telefono.errors" class="invalid-feedback">
-                    <div *ngIf="f.telefono.errors.required">El telefono es requerido </div>
-                    <div *ngIf="f.telefono.errors.minlength">El telefono debe tener maximo 16 caracteres</div>
-                </div>
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><fa-icon [icon]='faAt'></fa-icon></span>
-                </div>
-                <input formControlName="email" type="text" class="form-control form-control-user" 
-                    [(ngModel)]="usuario.email"
-                    [ngClass]="{'is-invalid': submitted && f.email.errors}"
-                    placeholder="Email" />
-                <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
-                    <div *ngIf="f.email.errors.required">El email es requerido </div>
-                    <div *ngIf="f.email.errors.minlength">El email debe tener maximo 100 caracteres</div>
-                </div>
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><fa-icon [icon]='faUnlock'></fa-icon></span>
-                </div>
-                <input formControlName="contrasena" type="password" class="form-control form-control-user" [(ngModel)]="usuario.contrasena"
-                    [ngClass]="{'is-invalid': submitted && f.contrasena.errors}"
-                    placeholder="Contraseña" />
-                <div *ngIf="submitted && f.contrasena.errors" class="invalid-feedback">
-                    <div *ngIf="f.contrasena.errors.required">La contraseña es requerida </div>
-                    <div *ngIf="f.contrasena.errors.minlength">La contraseña debe tener maximo 50 caracteres</div>
-                </div>
-            </div>
-            <div class="btn-group">
-                <button type="submit" (click)="onSubmit()" class="btn btn-outline-secondary">
-                    <fa-icon [icon]='faSave' ></fa-icon>&nbsp;Guardar
-                </button>
-                <button type="reset" data-dismiss="modal" aria-label="Close" (click)="onReset()" class="btn btn-outline-dark">
-                    <fa-icon [icon]='faTimes'></fa-icon>&nbsp;Cerrar
-                </button>
+            <input formControlName="nombre" type="text" class="form-control form-control-user"
+                [(ngModel)]="usuario.nombres" [ngClass]="{'is-invalid': submitted && f.nombre.errors}"
+                placeholder="nombre" />
+            <div *ngIf="submitted && f.nombre.errors" class="invalid-feedback">
+                <div *ngIf="f.nombre.errors.required">Los nombre son requeridos </div>
+                <div *ngIf="f.nombre.errors.minlength">Los nombre debe tener maximo 50 caracteres</div>
             </div>
         </div>
-    </form>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faIdCard'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="apellidos" type="text" class="form-control form-control-user"
+                [(ngModel)]="usuario.apellidos" [ngClass]="{'is-invalid': submitted && f.apellidos.errors}"
+                placeholder="Apellidos" />
+            <div *ngIf="submitted && f.apellidos.errors" class="invalid-feedback">
+                <div *ngIf="f.apellidos.errors.required">Los apellidos son requeridos </div>
+                <div *ngIf="f.apellidos.errors.minlength">Los apellidos debe tener maximo 50 caracteres</div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faMapMarkedAlt'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="direccion" type="text" class="form-control form-control-user"
+                [(ngModel)]="usuario.direccion" [ngClass]="{'is-invalid': submitted && f.direccion.errors}"
+                placeholder="Direccion" />
+            <div *ngIf="submitted && f.direccion.errors" class="invalid-feedback">
+                <div *ngIf="f.direccion.errors.required">La direccion es requerida </div>
+                <div *ngIf="f.direccion.errors.minlength">La direccion debe tener maximo 100 caracteres</div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faPhone'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="telefono" type="text" class="form-control form-control-user"
+                [(ngModel)]="usuario.telefono" [ngClass]="{'is-invalid': submitted && f.telefono.errors}"
+                placeholder="Telefono" />
+            <div *ngIf="submitted && f.telefono.errors" class="invalid-feedback">
+                <div *ngIf="f.telefono.errors.required">El telefono es requerido </div>
+                <div *ngIf="f.telefono.errors.minlength">El telefono debe tener maximo 16 caracteres</div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faAt'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="email" type="text" class="form-control form-control-user"
+                [(ngModel)]="usuario.email" [ngClass]="{'is-invalid': submitted && f.email.errors}"
+                placeholder="Email" />
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">El email es requerido </div>
+                <div *ngIf="f.email.errors.minlength">El email debe tener maximo 100 caracteres</div>
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faUnlock'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="contrasena" type="password" class="form-control form-control-user"
+                [(ngModel)]="usuario.contrasena" [ngClass]="{'is-invalid': submitted && f.contrasena.errors}"
+                placeholder="Contraseña" />
+            <div *ngIf="submitted && f.contrasena.errors" class="invalid-feedback">
+                <div *ngIf="f.contrasena.errors.required">La contraseña es requerida </div>
+                <div *ngIf="f.contrasena.errors.minlength">La contraseña debe tener maximo 50 caracteres</div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="submit" (click)="onSubmit()" class="btn btn-outline-secondary">
+                <fa-icon [icon]='faSave'></fa-icon>&nbsp;Guardar
+            </button>
+            <button type="reset" data-dismiss="modal" aria-label="Close" (click)="onReset()"
+                class="btn btn-outline-dark">
+                <fa-icon [icon]='faTimes'></fa-icon>&nbsp;Cerrar
+            </button>
+        </div>
+    </div>
+</form>

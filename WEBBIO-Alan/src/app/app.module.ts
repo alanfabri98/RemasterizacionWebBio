@@ -72,6 +72,7 @@ import { VentaCantidadComponent } from './component/estadistica-main/estadistica
 import { VentaStockComponent } from './component/estadistica-main/estadistica-stock/venta-stock/venta-stock.component';
 import { CompraComponent } from './component/estadistica-main/estadistica-stock/compra/compra.component';
 import { CanvasComponent } from './component/estadistica-main/estadistica-stock/canvas/canvas.component';
+import { RecuperarConfirmarComponent } from './login-main/recuperar-confirmar/recuperar-confirmar.component';
 
 @NgModule({
   declarations: [
@@ -127,7 +128,8 @@ import { CanvasComponent } from './component/estadistica-main/estadistica-stock/
     VentaCantidadComponent,
     VentaStockComponent,
     CompraComponent,
-    CanvasComponent
+    CanvasComponent,
+    RecuperarConfirmarComponent
 
   ],
   imports: [

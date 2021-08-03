@@ -1,0 +1,63 @@
+<div class="text-center">
+    <fa-icon class="fa-2x" [icon]="faUserPlus"></fa-icon>
+    <p>{{textobody}}</p>
+</div>
+<hr>
+<!--h6>{{title}}</h6-->
+
+<form [formGroup]="form" class="user" >
+    <div class="card-body">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faAt'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="email" type="text" class="form-control form-control-user"
+                [(ngModel)]="usuario.email" [ngClass]="{'is-invalid': submitted && f.email.errors}"
+                placeholder="Email" />
+            <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">El email es requerido </div>
+                <div *ngIf="f.email.errors.minlength">El email debe tener maximo 100 caracteres</div>
+            </div>
+        </div>
+        <div class="input-group mb-3" *ngIf="!band">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faUnlock'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="contrasena" type="password" class="form-control form-control-user"
+                [(ngModel)]="usuario.tipoImgLogin" [ngClass]="{'is-invalid': submitted && f.contrasena.errors}"
+                placeholder="Contraseña" />
+            <div *ngIf="submitted && f.contrasena.errors" class="invalid-feedback">
+                <div *ngIf="f.contrasena.errors.required">La contraseña es requerida </div>
+                <div *ngIf="f.contrasena.errors.minlength">La contraseña debe tener maximo 50 caracteres</div>
+            </div>
+        </div>
+        <div class="input-group mb-3" *ngIf="band">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <fa-icon [icon]='faUnlock'></fa-icon>
+                </span>
+            </div>
+            <input formControlName="contrasena" type="password" class="form-control form-control-user"
+                [(ngModel)]="usuario.tipoImgLogin" [ngClass]="{'is-invalid': submitted && f.contrasena.errors}"
+                placeholder="Contraseña" />
+            <div *ngIf="submitted && f.contrasena.errors" class="invalid-feedback">
+                <div *ngIf="f.contrasena.errors.required">La contraseña es requerida </div>
+                <div *ngIf="f.contrasena.errors.minlength">La contraseña debe tener maximo 50 caracteres</div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button type="submit" (click)="onSubmit()" class="btn btn-outline-secondary">
+                <fa-icon [icon]='faSave'></fa-icon>&nbsp;Guardar
+            </button>
+            <button type="reset" data-dismiss="modal" aria-label="Close" (click)="onReset()"
+                class="btn btn-outline-dark">
+                <fa-icon [icon]='faTimes'></fa-icon>&nbsp;Cerrar
+            </button>
+        </div>
+    </div>
+</form>
+

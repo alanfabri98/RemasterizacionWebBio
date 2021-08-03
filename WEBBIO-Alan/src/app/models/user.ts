@@ -7,4 +7,6 @@ export class User {
   email       : string;
   estado      : string = "a"; //a = activo; d = desactivo
   contrasena  : string;
+  tipoImgRegistro  : string;
+  tipoImgLogin  : string;
 }

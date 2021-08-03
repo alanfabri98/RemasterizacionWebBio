@@ -14,11 +14,51 @@
       <hr>
       <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="singIn2()" [disabled]="!form.valid">Iniciar secion</button>
       
-      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="singIn2()" [disabled]="!form.valid">Registrarse</button>
-      <p><a><u>¿Has olvidado tu contrasea?</u></a></p>
+      <button class="btn btn-lg btn-primary btn-block" type="button" data-toggle="modal" data-target="#formUsuario"  data-aos="flip-left" >Registrarse</button>
+      <p><a data-toggle="modal" data-target="#formConRec"  data-aos="flip-left" ><u>¿Has olvidado tu contrasea?</u></a></p>
       <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
     </form>
 
   </div>
 </div>
-<app-usuario-form></app-usuario-form>
+
+<!-- Modal Usuario -->
+<div class="modal fade" id="formUsuario" tabindex="1" role="dialog" aria-labelledby="usuarioTitle"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="usuarioTitle">
+          <!--fa-icon [icon]='faShoppingCart'></fa-icon--> &nbsp; 
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <app-usuario-form (flagToReload) = "funcion($event)" (email)="funcion2($event)" *ngIf="!flagToReload"></app-usuario-form>
+        <app-recuperar-confirmar *ngIf="flagToReload" [email] = "email"></app-recuperar-confirmar>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Recuperar Confirmar -->
+<div class="modal fade" id="formConRec" tabindex="1" role="dialog" aria-labelledby="conRecTitle"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="conRecTitle">
+          <fa-icon [icon]='faAt'></fa-icon> &nbsp;  
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <app-recuperar-confirmar></app-recuperar-confirmar>
+      </div>
+    </div>
+  </div>
+</div>

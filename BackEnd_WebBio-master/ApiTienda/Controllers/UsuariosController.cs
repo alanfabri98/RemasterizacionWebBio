@@ -19,7 +19,7 @@ namespace ApiTienda.Controllers
     public class UsuariosController : ApiController
     {
         [EnableCors(origins: "*", headers: "*", methods: "*")]
-
+        
         // GET: api/Articulos
         public IHttpActionResult Get()
         {
@@ -60,9 +60,17 @@ namespace ApiTienda.Controllers
         {
             try
             {
-                Console.Write("Hola Mundo");
-                UsuarioBLL.Create(Usuario);
-                return Content(HttpStatusCode.Created, "Usuario creado correctamente");
+                //Console.Write("Hola Mundo");
+                bool band = UsuarioBLL.Create(Usuario);
+                if (band)
+                {
+                    return Content(HttpStatusCode.Created, "Usuario repetido");
+                }
+                else
+                {
+                    return Content(HttpStatusCode.Created, "Usuario creado correctamente");
+                }
+                
             }
             catch (Exception ex)
             {
@@ -140,6 +148,26 @@ namespace ApiTienda.Controllers
             }
         }//end
 
+        [ResponseType(typeof(Usuario))]
+        public IHttpActionResult Post(string email, int codConfirmacion)
+        {
+            try
+            {
+                Usuario c = new Usuario();
+                if (email != null)
+                {
+                    c = UsuarioBLL.Verificacion(email, codConfirmacion);
+                    return Content(HttpStatusCode.Created, c);
+                }
+                return Content(HttpStatusCode.BadRequest, c);
 
+            }
+            catch (Exception ex)
+            {
+                return Content(HttpStatusCode.Conflict, ex);
+                throw;
+            }
+            
+        }
     }
 }

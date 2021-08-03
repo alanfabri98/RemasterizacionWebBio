@@ -32,6 +32,11 @@ export class UserService {
     return this.http.put<any>(this.urlService+'/Put', usuarioBody, this.httpOptions);
   }
 
+  confirmar(a:User){
+    let usuarioBody = JSON.stringify(a);
+    return this.http.post<any>(this.urlService+'/Post?email=' + a.email + '&codConfirmacion=' + a.tipoImgLogin, usuarioBody, this.httpOptions);
+  }
+
   retrieve(id): Observable<User> {
     return this.http.get<User>(this.urlService + "/Get/" + id, this.httpOptions)
       .pipe(

@@ -733,3 +733,13 @@ D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Debug\A
 D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Debug\ApiTienda.csproj.CopyComplete
 D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Debug\ApiTienda.dll
 D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\obj\Debug\ApiTienda.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\BouncyCastle.Crypto.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\MimeKit.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Buffers.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\MailKit.dll
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\BouncyCastle.Crypto.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\MimeKit.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\MimeKit.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\System.Buffers.xml
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\MailKit.pdb
+D:\descargas\Angular\WEB-BIO\WEB-BIO\BackEnd_WebBio-master\ApiTienda\bin\MailKit.xml

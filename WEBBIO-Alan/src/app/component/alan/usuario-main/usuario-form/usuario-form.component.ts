@@ -27,6 +27,7 @@ export class UsuarioFormComponent implements OnInit {
   @Input() usuario : User;
   @Input() title : string;
   @Output() flagToReload = new EventEmitter<Boolean>();
+  @Output() email = new EventEmitter<string>();
 
   form: FormGroup;
   submitted: boolean = false;
@@ -73,8 +74,15 @@ export class UsuarioFormComponent implements OnInit {
         this.submitted = false;
         alertify.set('notifier','position', 'top-right');
         alertify.warning(result);
-        this.router.navigate(['/tienda']);
-        this.flagToReload.emit(true);
+        
+        if(result === "Usuario repetido"){
+          this.flagToReload.emit(false);
+        }else{
+          //this.router.navigate(['/tienda']);
+          this.flagToReload.emit(true);
+          this.email.emit(this.usuario.email);
+        }
+        
       },err=>{
         alertify.set('notifier','position', 'top-right');
         alertify.warning('Error: '+err+'-'+localStorage.getItem('servInterceptor'));

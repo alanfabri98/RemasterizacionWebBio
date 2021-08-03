@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
 import { Router } from '@angular/router';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import {faBook} from '@fortawesome/free-solid-svg-icons';
+import {faBook, faAt} from '@fortawesome/free-solid-svg-icons';
 declare let alertify:any;
 //importaciones login social
 import { SocialAuthService, SocialUser } from "angularx-social-login";
@@ -15,10 +15,16 @@ import { FacebookLoginProvider, GoogleLoginProvider } from "angularx-social-logi
 })
 export class LoginComponent implements OnInit {
   //
+  faAt = faAt;
   user2: SocialUser;
   loggedIn: boolean;
   faBook=faBook
   form : FormGroup;
+
+  flagToReload : boolean;
+
+  email : string;
+
   //atributos-propiedades de la clase
   user={
     email:'',
@@ -55,7 +61,7 @@ export class LoginComponent implements OnInit {
         alertify.set('notifier','position','top-right');//posiscion
         this.addToken(res.id_logueado,res.token,res.nombre);
         alertify.success('Administrador: Bienvenido' );
-
+        localStorage.setItem('email', this.user.email);
         this.router.navigate(['/']);
       },err=>{
         alertify.set('notifier','position', 'top-right');
@@ -94,5 +100,16 @@ export class LoginComponent implements OnInit {
     localStorage.setItem('id',id_log)//guardamos el id del usuario logueado
     localStorage.setItem('token',token)//guardamos el token
     localStorage.setItem('name',nombre)//guardamos el nombre completo
+  }
+
+  funcion(bandCon : boolean){
+    if(bandCon === true){
+      this.flagToReload = true;
+    }
+  }
+
+  funcion2(datoEmail : string){
+    this.email = datoEmail;
+    localStorage.setItem('email', datoEmail);
   }
 }

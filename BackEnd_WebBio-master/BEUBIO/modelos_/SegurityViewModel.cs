@@ -11,6 +11,8 @@ namespace BEUBIO.modelos_
         public string token { get; set; }
         public int id_logueado { get; set; }
         public string nombre { get; set; }
+
+        public Usuario usuario { get; set; }
         //public string pathIMG { get; set; }
     }
 }
